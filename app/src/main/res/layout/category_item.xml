@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+
+
+        <View
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:id="@+id/view"
+            android:layout_alignParentStart="true"
+            android:background="#33bde7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iphone 6 pus, 64 G"
+            android:layout_toEndOf="@+id/view"
+            android:layout_marginStart="10dp"
+            android:textColor="#612185"
+            android:id="@+id/phone_name"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/left_chevron"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_item_height"
+        android:orientation="horizontal"
+        android:weightSum="10"
+        >
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:layout_marginEnd="5dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/phone_bg"
+                android:layout_height="fill_parent"
+                android:layout_width="fill_parent"
+                android:scaleType="centerCrop">
+
+            </ImageView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="bottom"
+                android:gravity="end"
+                android:background="@drawable/item_scrim"
+                android:padding="5dp"
+                >
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2053"
+                    android:layout_gravity="bottom"
+                    android:layout_marginEnd="5dp"
+                    android:textColor="#fff"
+                    android:textSize="12sp"
+                    android:id="@+id/add_time"
+                    android:layout_marginBottom="1dp"
+                    />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginEnd="2dp"
+                    android:layout_gravity="bottom"
+                    android:src="@drawable/home_eye"
+                    />
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="هاتف جوال"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:id="@+id/phone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الرياض"
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:id="@+id/phone_city"
+                android:layout_below="@+id/phone"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="جديد"
+                android:textSize="15sp"
+                android:textColor="@color/text_color"
+                android:textStyle="bold"
+                android:id="@+id/phone_status"
+                android:layout_alignParentBottom="true"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:background="@drawable/btn"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45000"
+                android:maxLength="5"
+                android:id="@+id/phone_price"
+                android:layout_margin="5dp"
+                android:textColor="#612185"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="رس"
+                android:id="@+id/price_text"
+                android:layout_marginEnd="5dp"
+                android:textColor="#612185"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

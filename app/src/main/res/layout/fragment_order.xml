@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:padding="@dimen/filter_root_margin"
+    tools:context=".ui.fragment.OrderFragment">
+
+    <ScrollView
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@drawable/b"
+            android:padding="@dimen/filter_sub_root_padding"
+            >
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="10"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="20dp"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/type"
+                    android:id="@+id/type"
+                    android:textColor="@color/text_color"
+                    android:layout_weight="2.2"
+                    android:textSize="15sp"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.8"
+                    android:orientation="vertical"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#FFF"
+                        android:id="@+id/spinner_select_type"
+                        ></Spinner>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_bg_image"
+                    android:hint="@string/select_type"
+                    android:id="@+id/or_fr_select_type"
+                    android:textColor="@color/text_color"
+                    android:textAlignment="center"
+                    android:padding="@dimen/spinner_padding"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:weightSum="10"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/model"
+                    android:layout_weight="2.2"
+                    android:textSize="15sp"
+                    android:id="@+id/model"
+                    android:textColor="@color/text_color"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.8"
+                    android:orientation="vertical"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#FFF"
+                        android:id="@+id/spinner_select_model"
+                        ></Spinner>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_text_bg_image"
+                    android:hint="@string/select_model"
+                    android:textColor="@color/text_color"
+                    android:id="@+id/or_fr_select_model"
+                    android:textAlignment="center"
+                    android:padding="@dimen/spinner_padding"
+                    />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="10"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/status"
+                    android:id="@+id/phone_status"
+                    android:layout_weight="2.2"
+                    android:textSize="15sp"
+                    android:textColor="@color/text_color"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="7.8"
+                    android:gravity="center"
+                    android:weightSum="2"
+                    >
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/check_box_bg_image"
+                            android:layout_marginStart="20dp"
+                            android:textSize="18sp"
+                            android:id="@+id/check_box_new"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mobile_new"
+                            android:textColor="@color/text_color"
+                            android:textSize="15sp"
+                            android:id="@+id/new_phone"
+                            android:layout_marginStart="10dp"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_weight="1"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/uncheck_box_bg_image"
+                            android:layout_marginStart="20dp"
+                            android:textSize="18sp"
+                            android:id="@+id/check_box_used"
+                            />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/mobile_used"
+                            android:textColor="@color/text_color"
+                            android:textSize="15sp"
+                            android:id="@+id/used_phone"
+                            android:layout_marginStart="10dp"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:weightSum="10"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.2"
+                    android:text="@string/storage"
+                    android:textSize="15sp"
+                    android:id="@+id/storage"
+                    android:textColor="@color/text_color"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.8"
+                    android:orientation="vertical"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#FFF"
+                        android:id="@+id/spinner_select_storage"
+                        ></Spinner>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_bg_image"
+                        android:hint="@string/select_storage"
+                        android:id="@+id/or_fr_select_storage"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_color"
+                        android:padding="@dimen/spinner_padding"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:weightSum="10"
+                >
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2.2"
+                    android:text="@string/city"
+                    android:textSize="15sp"
+                    android:id="@+id/city"
+                    android:textColor="@color/text_color"
+                    android:layout_marginEnd="15dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7.8"
+                    android:orientation="vertical"
+                    >
+
+                    <Spinner
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#FFF"
+                        android:id="@+id/spinner_select_city"
+                        ></Spinner>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/edit_text_bg_image"
+                        android:hint="@string/select_city"
+                        android:id="@+id/or_fr_select_city"
+                        android:textAlignment="center"
+                        android:textColor="@color/text_color"
+                        android:padding="@dimen/spinner_padding"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:layout_width="250dp"
+                android:layout_height="@dimen/sign_in_button_height"
+                android:layout_marginTop="50dp"
+                android:background="@drawable/order_price_button_bg"
+                android:text="@string/order_offer"
+                android:textColor="#FFF"
+                android:textSize="18sp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/add_order_price"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</FrameLayout>

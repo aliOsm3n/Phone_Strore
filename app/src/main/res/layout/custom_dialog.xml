@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/b"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/make_offer_phone"
+        android:layout_gravity="center"
+        android:id="@+id/title"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size"
+        />
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/EditText1StyleBlue"
+        android:maxLength="5"
+        android:layout_margin="20dp"
+        android:padding="@dimen/spinner_padding"
+        android:textColor="@color/edittext_text_color"
+        android:inputType="number" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="@dimen/sign_in_button_height"
+        android:text="@string/offer"
+        android:layout_gravity="center"
+        android:background="@drawable/order_price_button_bg"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btn_take_price"
+        />
+
+</LinearLayout>

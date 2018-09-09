@@ -1,0 +1,94 @@
+{
+  "project_info": {
+    "project_number": "1071740321538",
+    "firebase_url": "https://phone-store-20293.firebaseio.com",
+    "project_id": "phone-store-20293",
+    "storage_bucket": "phone-store-20293.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071740321538:android:725778691569f942",
+        "android_client_info": {
+          "package_name": "com.example.ascom.phonestrore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071740321538-qj8ogc6qt3t68t7iu72vjgm3526d8j02.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ascom.phonestrore",
+            "certificate_hash": "023e3f80d3bd3ef7faddb6b72cc755fa812012a9"
+          }
+        },
+        {
+          "client_id": "1071740321538-1isqghqia0e9iuhi810khlet6c709bri.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ascom.phonestrore",
+            "certificate_hash": "901cf55de5ef551d05c687cd3e8302d40b85248c"
+          }
+        },
+        {
+          "client_id": "1071740321538-6eop4rpp7pr0i0po9m3024bgbmi3mt3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRCP8UYY13kbjwNkdg89YeqHkmzwnpVm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071740321538-6eop4rpp7pr0i0po9m3024bgbmi3mt3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071740321538:android:f4d6d055b17fdd65",
+        "android_client_info": {
+          "package_name": "com.phonedeals.ascom.phonestrore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071740321538-6eop4rpp7pr0i0po9m3024bgbmi3mt3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRCP8UYY13kbjwNkdg89YeqHkmzwnpVm8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

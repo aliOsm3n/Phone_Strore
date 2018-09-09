@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">فون ديلز</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number_hint">الجوال مثال ٥٥٥١٢٣٤٥٦</string>
+    <string name="password_hint">كلمه المرور</string>
+    <string name="forget_password_html"><![CDATA[
+<u>نسيت كلمه المرور‫!‬</u>
+    ]]></string>
+
+    <string name="change_password_html"><![CDATA[
+<u>تغير كلمه المرور‫!‬</u>
+    ]]></string>
+
+    <string name="edit_photo"><![CDATA[
+<u>تعديل‫!‬</u>
+    ]]></string>
+    <string name="api_key">AIzaSyAdqDOWPxUjdoTMpcOw86h8z89NNK0RVVo</string>
+    <string name="share_via">مشاركه عبر !</string>
+    <string name="gps">يجب تشغيل جهاز تحديد الموقع</string>
+    <string name="new_account">حساب جديد</string>
+    <string name="login">تسجيل دخول</string>
+    <string name="_966">966+</string>
+    <string name="user_name_hint">الإسم</string>
+    <string name="email_hint">البريد الالكتروني</string>
+    <string name="country_hint">المدينه</string>
+    <string name="gender_hint">النوع</string>
+    <string name="agree_shroot_html"><![CDATA[
+<u>أوافق على الشروط والاحكام والتعهد</u>
+    ]]></string>
+
+    <string name="sms_code"><![CDATA[
+<u>اعاده ارسال رمز التحقق</u>
+    ]]></string>
+    <string name="try_use_app"><![CDATA[
+<u>إكتشف التطبيق</u>
+    ]]></string>
+    <string name="reset_password">استعاده كلمه المرور</string>
+    <string name="will_send_u_code_by_mail">سيصلك رمز التحقق عبر البريد الالكترونى.لذا يرجى التحقق من ادحاله بشكل صحيح.</string>
+    <string name="verify_code_hint">رمز التحقق</string>
+    <string name="new_password_hint">كلمه المرور الجديده</string>
+    <string name="retype_new_password_hint">اعد ادخال كلمه المرور الجديده</string>
+    <string name="make_sure_vailde_price">تاكد من ادخال السعر بشكل صحيح</string>
+
+    <string name="enter_price">ادخل السعر</string>
+    <string name="error_dialog_missing_inputs">تحقق من إدخال جميع البيانات.</string>
+    <string name="dialog_error_select_city">تحقق من إختيار المدينه.</string>
+    <string name="dialog_error_select_color">تحقق من إختيار اللون.</string>
+    <string name="dialog_error_select_storage">تحقق من إختيار الذاكرة.</string>
+    <string name="dialog_error_select_model">تحقق من إختيار الموديل.</string>
+
+    <string name="dialog_error_select_type">تحقق من إختيار النوع.</string>
+    <string name="dialog_error_select_category">تحقق من إختيار الفئه.</string>
+    <string name="error_dialog_seclec_gender">تحقق من إختيار النوع.</string>
+    <string name="error_dialog_cannot_register">تعذر تسجيل المستخدم,حاول مره أخرى.</string>
+    <string name="error_dialog_user_exists">الهاتف موجود مسبقا.</string>
+    <string name="agree_shroot">اوافق على شروط الاستخدام</string>
+    <string name="error_dialog_invalid_mail">البريد الالكترونى غير صحيح.</string>
+    <string name="error_dialog_invalid_password">كلمه المرور يجيب الا تقل عن سته احرف.</string>
+    <string name="error_dialog_invalid_phone">رقم الهاتف يجب الا يزيد عن 9 ارقام ولا يبدا بكود الدوله او صفر.</string>
+    <string name="invalide_price">تاكد من ادخال السعر بشكل صحيح</string>
+    <string name="error_dialog_cannot_login">تعذر تسجيل المستخدم.</string>
+    <string name="phone_not_exists">رقم الهاتف غير موجود.</string>
+    <string name="select_city">إختر المدينه</string>
+    <string name="select_type">إختر فئه</string>
+    <string name="select_storage">إختر الذاكرة</string>
+    <string name="select_model">إختر موديل</string>
+    <string name="dialog_error_cannot_load_cities">تعذر تحميل المدن,حاول مره أخرى؟</string>
+    <string name="device_id_null">تحقق من الاتصال بالانترنت .</string>
+    <string name="error_dialog_user_not_found">مستخدم غير موجود.تحقق من رقم الهاتف وكلمه المرور.</string>
+    <string name="error_dialog_user_not_active">تم تعطيل حسابك.برجاء مراسله الادمن.</string>
+    <string name="error_dialog_cannot_complete_operation">تعذر استكمال العمليه, حاول مره أخرى.</string>
+    <string name="error_dialog_mail_not_exists">برجاء التحقق من البريد الالكترونى.</string>
+    <string name="error_dialog_invalid_code">رمز التحقق غير صحيح.</string>
+    <string name="error_dialog_passwords_not_match">كلمتى المرور غير متطابقتان.</string>
+    <string name="old_password_hint">كلمه المرور القديمه</string>
+    <string name="change_password_button_text">تغيير كلمه المرور</string>
+    <string name="change_password_title">تغيير كلمه المرور</string>
+    <string name="toast_max_length_image5">لا يمكن تحميل اكتر من خمس صور.</string>
+    <string name="add_ads">أضف اعلان</string>
+    <string name="edit_ads">تعديل الاعلان</string>
+    <string name="add_new_ads">إضافه اعلان</string>
+    <string name="edit_exist_ads">تعديل اعلان</string>
+    <string name="toast_update_passwrod_success">تم تغيير كلمه المرور.</string>
+    <string name="error_dialog_incorrect_old_password">كلمه المرور القديمه غير صحيحه.</string>
+    <string name="error_toast_accept_agreement">يجب عليك الموافقه على شروط الاستخدام قبل التسجيل.</string>
+    <string name="u_are_not_registered">أنت غير مسجل فى التطبيق.هل ترغب فى تسجيل مستخدم؟</string>
+    <string name="register_user">تسجيل دخول</string>
+    <string name="not_now">ليس ألان</string>
+    <string name="sure_log_out">هل ترغب فى تسجيل الخروج؟</string>
+    <string name="sure_exit">هل ترغب فى اغلاق التطبيق؟</string>
+    <string name="can_not_load_data">لم يتم تحميل البيانات . حاول مرة اخرى</string>
+    <string name="delete">حذف</string>
+    <string name="delet_order">لم يتم مسح الطلب حاول مرة اخرى</string>
+    <string name="can_not_search">تعذر البحث حاول مرة اخرى</string>
+    <string name="ads_by">بواسطه</string>
+    <string name="cancel_deal">رفض الإتفاق</string>
+    <string name="accept_deal">قبول الإتفاق</string>
+    <string name="finish_deal">اتمام الإتفاق</string>
+    <string name="enter_rent_price_hint">أدخل مبلغ التأجير</string>
+    <string name="calculate_rate">إحسب النسبه</string>
+    <string name="check_code_again">إعد ارسال رمز التحقق مرة اخرى</string>
+    <string name="dialog_error_no_internet">تحقق من الاتصال بالانترنت.</string>
+    <string name="verify_code">لم يتم تفعيل رقم الهاتف .</string>
+    <string name="error_dialog">حدث خطاء ما الرجوع الى الشاشة الرئيسية</string>
+    <string name="dialog_ok">موافق</string>
+    <string name="dialog_cancel">إلغاء</string>
+    <string name="chech_code">رمز التحقق</string>
+    <string name="next">التالى</string>
+    <string name="complete_create_new_account">اتمام انشاء الحساب</string>
+    <string name="phone_name">ايفون 6 بلس , 64 جيجا</string>
+    <string name="phone_type">Apple</string>
+    <string name="number_view">2053</string>
+    <string name="phone_desc">Could not reach our servers to perform the test. You may not be connected to the internetCould not reach our servers to perform the test. You may not</string>
+    <string name="send_message">ارسل رسالة</string>
+    <string name="call">اتصل</string>
+    <string name="type">الفئه</string>
+    <string name="color">اللون</string>
+    <string name="phone_color">ابيض</string>
+    <string name="model">الموديل</string>
+    <string name="phone_model">Iphone x</string>
+    <string name="storage">الذاكره</string>
+    <string name="storage_size">64 جيجا</string>
+    <string name="price">السعر</string>
+    <string name="phone_price">3500 ريال</string>
+    <string name="status">الحالة</string>
+    <string name="phone_status">جديد</string>
+    <string name="city">المدينة</string>
+    <string name="phone_city">الرياض</string>
+    <string name="rest_password">استعادة كلمة المرور</string>
+    <string name="phone_number">رقم الجوال</string>
+    <string name="congratulation">تهانينا</string>
+    <string name="success_send">لقد تم ارسال طلبك بنجاح سوف يصلك اشعار فور تقديم عرض سعر</string>
+    <string name="go_to_store">توجه للمتجر</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="chat">الشات</string>
+    <string name="sel_model">اختر الموديل</string>
+    <string name="nav_logout">تسجيل خروج</string>
+    <string name="nav_settings">الاعدادات</string>
+    <string name="nav_rate">قيم التطبيق</string>
+    <string name="nav_about_app">عن التطبيق</string>
+    <string name="nav_shroot">الشروط و الاحكام</string>
+    <string name="nav_favourites">المفضلة</string>
+    <string name="nav_chat">البريد</string>
+    <string name="nav_all_order">طلبات عروض الاسعار</string>
+    <string name="nav_my_order">طلباتى</string>
+    <string name="nav_my_ads">اعلاناتى</string>
+    <string name="nav_profile">الصفحة الشخصية</string>
+    <string name="search">البحث</string>
+    <string name="mobile_type">النوع</string>
+    <string name="mobile_select_type">اختر النوع</string>
+    <string name="mobile_model">الموديل</string>
+    <string name="mobile_select_model">اختر موديل</string>
+
+    <string name="mobile_new">جديد</string>
+    <string name="mobile_used">مستعمل</string>
+    <string name="mobile_color">اللون</string>
+    <string name="mobile_select_color">اختر اللون</string>
+    <string name="mobile_memory">الذاكرة</string>
+    <string name="mobile_select_memory">اختر الذاكرة</string>
+    <string name="mobile_city">المدينة</string>
+    <string name="mobile_select_city">اختر مدينة</string>
+    <string name="do_search">ابحث</string>
+    <string name="mobile_phone">هاتف جوال</string>
+    <string name="show_my_all_order">عروض الاسعار المقدمة</string>
+    <string name="prices_offers">عروض الاسعار</string>
+    <string name="real">رس</string>
+    <string name="edit">تعديل</string>
+    <string name="add_images">ارفق صور</string>
+    <string name="language">اللغة</string>
+    <string name="recent_add">احدث العروض</string>
+    <string name="most_view">اخترنا لك</string>
+    <string name="map_location">Map Location</string>
+    <string name="make_offer">قدم عرض</string>
+    <string name="stop">ايقاف</string>
+    <string name="messages">الرسائل</string>
+    <string name="error_dialog_missing_user_type">تحقق من ختيار نوع المستخدم</string>
+    <string name="error_dialog_missing_location">تحقق من تحديد موقعك</string>
+    <string name="about_phone">عن الجوال</string>
+
+    /////////////////////////////
+    <string name="do_not_load_about_app">لم يتم تحميل عن التطبيق حاول مرة اخرى</string>
+    <string name="did_not_find_your_request">لم يتم العثور على طلبك</string>
+    <string name="no_chats">لا يوجد رسائل</string>
+    <string name="message_not_send">لم يتم ارسال الرسالة</string>
+    <string name="please_return_and_enter_phone_again">برجاء العودة و ادخال رقم الموبيل مرة اخرى</string>
+    <string name="wrong_code">الكود الذى ادخلته غير صحيح حاول مرة اخرى</string>
+    <string name="code_send_seccuss">تم ارسال الكود بنجاح</string>
+    <string name="code_not_send">لم يتم ارسال الكود حاول مرة اخرى</string>
+    <string name="phone_confirm">تم تأكيد رقم الهاتف بنجاح</string>
+    <string name="english">English</string>
+    <string name="arabic">عربى</string>
+    <string name="gallery">معرض</string>
+    <string name="company">شركة</string>
+    <string name="user">مستخدم</string>
+    <string name="select">تحديد</string>
+    <string name="select_location">تحديد موقعك</string>
+    <string name="make_offer_phone">قدم عرض سعر على الهاتف</string>
+    <string name="offer">قدم عرض سعر</string>
+    <!--<string name="black">اسود</string>-->
+    <!--<string name="white">ابيض</string>-->
+    <!--<string name="gray">رصاصى</string>-->
+    <!--<string name="red">احمر</string>-->
+    <!--<string name="green">اخضر</string>-->
+    <!--<string name="yellow">اصفر</string>-->
+    <string name="select_gender">اختر النوع</string>
+    <!--<string name="male">ذكر</string>-->
+    <!--<string name="female">انثى</string>-->
+    <string name="you_should_select_category">يجب اختيار الفئه اولا</string>
+    <string name="you_should_select_memory">يجب اختيار الذاكرة اولا</string>
+    <string name="you_should_select_model">يجب اختيار الموديل اولا</string>
+    <string name="error">حدث خطاء ما فى السيرفر</string>
+    <string name="your_request_done">تم تنفيذ طلبك بنجاح</string>
+    <string name="your_request_not_done">لم يتم تنفيذ طلبك حاول مرة اخرى</string>
+    <string name="recent_add_not_load">لم يتم تحميل احدث العروض حاول مرة اخرى</string>
+    <string name="you_should_upload_one_image">يجيب تحميل صورة على الاقل</string>
+    <string name="your_ads_add_success">تم اضافة اعلانك بنجاح</string>
+    <string name="your_ad_not_add">لم يتم اضافة اعلانك حاول مرة اخرى</string>
+    <string name="image_wrong">خطاء فى الصورة اعد تحميل الصور مرة اخرى</string>
+    <string name="your_ad_update_done">تم تعديل اعلانك بنجاح</string>
+    <string name="your_ad_not_update">لم يتم تعديل اعلانك حاول مرة اخرى</string>
+    <string name="image_delete_done">تم حذف الصورة بنجاح</string>
+    <string name="image_not_deleted">لم يتم حذف الصورة حاول مرة اخرى</string>
+    <string name="your_data_update">تم تعديل البيانات بنجاح</string>
+    <string name="your_data_not_update">لم يتم تعديل بياناتك حاول مرة اخرى</string>
+    <string name="image_update_done">تم تغير الصورة بنجاح</string>
+    <string name="image_not_updated">لم يتم تغير الصورة حاول مرة اخرى</string>
+    <string name="shroot_not_upload">لم يتم تحميل الشروط حاول مرة اخرى</string>
+    <string name="not_found_offers">لا يوجد عروض مقدمة على طلبك</string>
+    <string name="code_send_success">تم ارسال الكود بنجاح</string>
+    <string name="password_change_done">تم تغيير كلمه المرور بنجاح</string>
+    <string name="password_not_changed">لم يتم تغيير كلمه المرور حاول مرة اخرى</string>
+    <string name="phone_add_to_favourite">تم اضافة الجوال الى المفضلة</string>
+    <string name="phone_not_add_to_favourite">لم يتم اضافة الجوال الى المفضلة</string>
+    <string name="deleted_from_favourite">تم حذف الجوال من المفضلة</string>
+    <string name="favourite_not_deleted">لم يتم حذف الجوال من المفضلة</string>
+    <string name="you_can_not_make_offer_on_your_request">لا يمكنك تقديم عرض على طلبك</string>
+    <string name="your_offer_not_send">لم يتم ارسال عرض سعرك حاول مرة اخرى</string>
+    <string name="order_offer_not_found">لا يوجد طلبات عروض اسعار</string>
+    <string name="your_request_deleted">تم حذف عرض طلبك بنجاح</string>
+    <string name="your_request_not_deleted">لم يتم حذف عرض طلبك . حاول مرة اخرى</string>
+    <string name="no_ads">لا يوجد اعلانات</string>
+    <string name="your_ad_deleted">تم حذف اعلانك بنجاح</string>
+    <string name="your_ad_not_deleted">لم يتم حذف اعلانك حاول مرة اخرى</string>
+    <string name="your_ad_stop">تم ايقاف اعلانك بنجاح</string>
+    <string name="your_ad_not_stop">لم يتم ايقاف اعلانك حاول مرة اخرى</string>
+    <string name="your_ad_on">تم تشغيل اعلانك بنجاح</string>
+    <string name="your_ad_not_work">لم يتم تشغيل اعلانك حاول مرة اخرى</string>
+    <string name="add_ads_">اعلن عن جوال</string>
+    <string name="request_offer">اطلب عرض سعر</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="storage_not_loaded">لم يتم تحميل الذاكرة حاول مرة اخرى</string>
+    <string name="model_not_loaded">لم يتم تحميل الموديل حاول مرة اخرى</string>
+    <string name="cities_not_loaded">لم يتم تحميل المدن حاول مرة اخرى</string>
+    <string name="favourite_not_found">لم يتم العثور على المفضلة</string>
+    <string name="your_offer_send">لقد تم ارسال عرض سعرك بنجاح</string>
+    <string name="massage_not_send">لم يتم ارسال الرسالة</string>
+    <string name="turn_on">تشغيل</string>
+    <string name="no_offers">لا يوجد عروض طلبات اسعار</string>
+    <string name="order_offer">اطلب عرض سعر</string>
+    <string name="enter_phone_again">برجاء العودة و ادخال الرقم مرة اخرى</string>
+    <string name="empty_message">لا يمكن ارسال رسالة فارغة</string>
+</resources>

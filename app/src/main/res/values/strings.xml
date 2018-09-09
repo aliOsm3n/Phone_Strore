@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Phone Deals</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="phone_number_hint">الجوال مثال ٥٥٥١٢٣٤٥٦</string>
+    <string name="password_hint">Password</string>
+    <string name="forget_password_html"><![CDATA[
+<u>Forget Password!‬</u>
+    ]]></string>
+
+    <string name="change_password_html"><![CDATA[
+<u>Change Password‫!‬</u>
+    ]]></string>
+
+    <string name="edit_photo"><![CDATA[
+<u>Edit!‬</u>
+    ]]></string>
+    <string name="api_key">AIzaSyAdqDOWPxUjdoTMpcOw86h8z89NNK0RVVo</string>
+    <string name="share_via">Share.. !</string>
+    <string name="gps">Turn on GPS</string>
+    <string name="new_account">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="_966">966+</string>
+    <string name="user_name_hint">Name</string>
+    <string name="email_hint">Email</string>
+    <string name="country_hint">City</string>
+    <string name="gender_hint">Type</string>
+    <string name="agree_shroot_html"><![CDATA[
+<u>I agree to the Terms, Conditions and Undertaking</u>
+    ]]></string>
+
+
+    <string name="sms_code"><![CDATA[
+<u>Resend verification code</u>
+    ]]></string>
+    <string name="try_use_app"><![CDATA[
+<u>Find Out App</u>
+    ]]></string>
+    <string name="reset_password">Retrieve password</string>
+    <string name="will_send_u_code_by_mail">You receive a verification code via mobile. Please verify that it is entered correctly.</string>
+    <string name="verify_code_hint">Check Code</string>
+    <string name="new_password_hint">New Password</string>
+    <string name="retype_new_password_hint">Re-enter the new password</string>
+    <string name="make_sure_vailde_price">Make sure the price is entered correctly</string>
+
+    <string name="enter_price">Enter Price</string>
+    <string name="error_dialog_missing_inputs">Verify that all data is entered.</string>
+    <string name="error_dialog_missing_user_type">Verify that the user type is selected</string>
+    <string name="error_dialog_missing_location">Check your location</string>
+
+    <string name="dialog_error_select_city">Check the city selection.</string>
+    <string name="dialog_error_select_color">Check the color selection.</string>
+    <string name="dialog_error_select_storage">Check the memory selection.</string>
+    <string name="dialog_error_select_model">Check the model selection.</string>
+
+    <string name="dialog_error_select_type">Check the type selection.</string>
+    <string name="dialog_error_select_category">Check category selection.</string>
+    <string name="error_dialog_seclec_gender">Check the type selection.</string>
+    <string name="error_dialog_cannot_register">Unable to register user, try again.</string>
+    <string name="error_dialog_user_exists">Phone already exists.</string>
+    <string name="agree_shroot">I agree to the Terms of Use</string>
+    <string name="error_dialog_invalid_mail">Email is incorrect.</string>
+    <string name="error_dialog_invalid_password">Password must be at least six characters.</string>
+    <string name="error_dialog_invalid_phone">Phone number must be no more than 9 numbers and does not begin with the country code or zero.</string>
+    <string name="error_dialog_cannot_login">Unable to register user.</string>
+    <string name="phone_not_exists">This phone not found.</string>
+    <string name="select_city">Select City</string>
+    <string name="select_type">Select Category</string>
+    <string name="select_storage">Select Storage</string>
+    <string name="select_model">Select Model</string>
+    <string name="dialog_error_cannot_load_cities">Could not load cities, try again?</string>
+    <string name="device_id_null">Check Internet Connection .</string>
+    <string name="error_dialog_user_not_found">User does not exist. Check phone number and password.</string>
+    <string name="error_dialog_cannot_complete_operation">Could not complete the process, try again.</string>
+    <string name="error_dialog_mail_not_exists">Please check your email address.</string>
+    <string name="error_dialog_invalid_code">Invalid verification code.</string>
+    <string name="error_dialog_passwords_not_match">The two passwords do not match.</string>
+    <string name="old_password_hint">كلمه المرور القديمه</string>
+    <string name="change_password_button_text">Change Password</string>
+    <string name="change_password_title">Change Password</string>
+    <string name="toast_max_length_image5">Can not load more than five photos.</string>
+    <string name="add_ads">Add Ads</string>
+    <string name="edit_ads">Edit Ads</string>
+    <string name="add_new_ads">Add Ads</string>
+    <string name="edit_exist_ads">Edit Ads</string>
+    <string name="toast_update_passwrod_success">Password changed.</string>
+    <string name="error_toast_accept_agreement">You must agree to the Terms of Use before registering.</string>
+    <string name="u_are_not_registered">You are not registered in the application. Would you like to register a user?</string>
+    <string name="register_user">Login</string>
+    <string name="not_now">Not Now</string>
+    <string name="sure_log_out">Do You Want To Logout ?</string>
+    <string name="sure_exit">Do You Want Close App ?</string>
+    <string name="can_not_load_data">Data is not loaded. Try again</string>
+    <string name="delete">Delete</string>
+    <string name="delet_order">The request is not Deleted try again</string>
+    <string name="can_not_search">Unable to search Try again</string>
+    <string name="ads_by">by</string>
+    <string name="check_code_again">Re-send the verification code</string>
+    <string name="dialog_error_no_internet">Check Internet Connection.</string>
+    <string name="verify_code">Phone number not activated.</string>
+    <string name="error_dialog">Something wrong. Return to the Home screen</string>
+    <string name="dialog_ok">Ok</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="chech_code">Check Code</string>
+    <string name="next">Next</string>
+    <string name="complete_create_new_account">Complete account creation</string>
+    <string name="phone_name">ايفون 6 بلس , 64 جيجا</string>
+    <string name="phone_type">Apple</string>
+    <string name="number_view">2053</string>
+    <string name="phone_desc">Could not reach our servers to perform the test. You may not be connected to the internetCould not reach our servers to perform the test. You may not</string>
+    <string name="send_message">Send Message</string>
+    <string name="call">Call</string>
+    <string name="type">Category</string>
+    <string name="color">Color</string>
+    <string name="phone_color">ابيض</string>
+    <string name="model">Model</string>
+    <string name="phone_model">Iphone x</string>
+    <string name="storage">Storage</string>
+    <string name="storage_size">64 جيجا</string>
+    <string name="price">Price</string>
+    <string name="phone_price">3500 ريال</string>
+    <string name="status">Status</string>
+    <string name="phone_status">New</string>
+    <string name="city">City</string>
+    <string name="phone_city">الرياض</string>
+    <string name="rest_password">Retrieve password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="congratulation">Congratulation</string>
+    <string name="success_send">Your order has been sent successfully. You will be notified once an offer has been made</string>
+    <string name="go_to_store">Go To Store</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="chat">Chat</string>
+    <string name="sel_model">Select Model</string>
+    <string name="nav_logout">Logout</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_rate">Rate App</string>
+    <string name="nav_about_app">About App</string>
+    <string name="nav_shroot">Terms</string>
+    <string name="nav_favourites">Favourites</string>
+    <string name="nav_chat">Chats</string>
+    <string name="nav_all_order">Price Requests</string>
+    <string name="nav_my_order">My Orders</string>
+    <string name="nav_my_ads">My Ads</string>
+    <string name="nav_profile">Profile</string>
+    <string name="search">Search</string>
+    <string name="mobile_type">Type</string>
+    <string name="mobile_select_type">Select Type</string>
+    <string name="mobile_model">Model</string>
+    <string name="mobile_select_model">Select Model</string>
+
+    <string name="mobile_new">New</string>
+    <string name="mobile_used">Used</string>
+    <string name="mobile_color">Color</string>
+    <string name="mobile_select_color">Select Color</string>
+    <string name="mobile_memory">Storage</string>
+    <string name="mobile_select_memory">Select Storage</string>
+    <string name="mobile_city">City</string>
+    <string name="mobile_select_city">Select City</string>
+    <string name="do_search">Search</string>
+    <string name="mobile_phone">Mobile Phone</string>
+    <string name="show_my_all_order">Offers</string>
+    <string name="prices_offers">Show Prices</string>
+    <string name="real">SAR</string>
+    <string name="edit">Edit</string>
+    <string name="add_images">Attach Image</string>
+    <string name="about_phone">About Phone</string>
+    <string name="language">Language</string>
+    <string name="recent_add">Recent Added</string>
+    <string name="most_view">Most View</string>
+    <string name="map_location">Map Location</string>
+    <string name="make_offer">Make Offer</string>
+    <string name="stop">Stop</string>
+    <string name="messages">Messages</string>
+    <string name="invalide_price">Make sure the price is entered correctly</string>
+
+    //////////////////
+    <string name="do_not_load_about_app">About application was not loaded for try again</string>
+    <string name="did_not_find_your_request">Your request could not be found</string>
+    <string name="no_chats">No messages</string>
+    <string name="message_not_send">Message not sent</string>
+    <string name="please_return_and_enter_phone_again">Please return and enter your mobile number again</string>
+    <string name="wrong_code">The code you entered is incorrect Try again</string>
+    <string name="code_send_seccuss">Code sent successfully</string>
+    <string name="code_not_send">The code was not sent try again</string>
+    <string name="phone_confirm">Phone number successfully confirmed</string>
+    <string name="english">English</string>
+    <string name="arabic">Arabic</string>
+    <string name="gallery">Gallery</string>
+    <string name="company">Company</string>
+    <string name="user">User</string>
+    <string name="select">locating</string>
+    <string name="select_location">Select your location</string>
+    <string name="make_offer_phone">Make an offer on the phone</string>
+    <string name="offer">Make an offer</string>
+    <string name="black">Black</string>
+    <string name="white">White</string>
+    <string name="gray">Gray</string>
+    <string name="red">Red</string>
+    <string name="green">Green</string>
+    <string name="yellow">Yellow</string>
+    <string name="select_gender">Select Gender</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="you_should_select_category">You must select the category first</string>
+    <string name="you_should_select_memory">Memory must be selected first</string>
+    <string name="you_should_select_model">The model must be selected first</string>
+    <string name="error">Something went wrong in the server</string>
+    <string name="your_request_done">Your request has been successfully executed</string>
+    <string name="your_request_not_done">Your request was not executed again</string>
+    <string name="recent_add_not_load"> latest offers not download try again</string>
+    <string name="you_should_upload_one_image">Uploads at least one image</string>
+    <string name="your_ads_add_success">Your ad has been successfully added</string>
+    <string name="your_ad_not_add">Your ad has not been added Try again</string>
+    <string name="image_wrong">Image error Reload images again</string>
+    <string name="your_ad_update_done">Your ad has been successfully modified</string>
+    <string name="your_ad_not_update">Your ad has not been modified Please try again</string>
+    <string name="image_delete_done">Photo successfully deleted</string>
+    <string name="image_not_deleted">The image was not deleted try again</string>
+    <string name="your_data_update">Data modified successfully</string>
+    <string name="your_data_not_update">Your data has not been modified Try again</string>
+    <string name="image_update_done">Photo changed successfully</string>
+    <string name="image_not_updated">The image has not changed try again</string>
+    <string name="shroot_not_upload">The conditions are not loaded try again</string>
+    <string name="not_found_offers">There are no offers on your request</string>
+    <string name="code_send_success">Code sent successfully</string>
+    <string name="password_change_done">Password changed successfully</string>
+    <string name="password_not_changed">Password is not changed try again</string>
+    <string name="phone_add_to_favourite">Mobile has been added to favorites</string>
+    <string name="phone_not_add_to_favourite">Mobile has not been added to your favorites</string>
+    <string name="deleted_from_favourite">Mobile deleted from favorites</string>
+    <string name="favourite_not_deleted">Mobile has not been deleted from favorites</string>
+    <string name="you_can_not_make_offer_on_your_request">You can not make offer on your request</string>
+    <string name="your_offer_not_send">Your offer has not been sent try again</string>
+    <string name="order_offer_not_found">There are no orders offers</string>
+    <string name="your_request_deleted">Your order offer has been successfully deleted</string>
+    <string name="your_request_not_deleted">Your order offer has not been deleted. Try again</string>
+    <string name="no_ads">There are no ads</string>
+    <string name="your_ad_deleted">Your ad has been successfully deleted</string>
+    <string name="your_ad_not_deleted">Your ad has not been deleted Try again</string>
+    <string name="your_ad_stop">Your ad has been successfully stopped</string>
+    <string name="your_ad_not_stop">Your ad has not been stopped Try again</string>
+    <string name="your_ad_on">Your ad has been successfully run</string>
+    <string name="your_ad_not_work">Your ad is not running  try again</string>
+    <string name="add_ads_">Advertise for Mobile</string>
+    <string name="request_offer">Request an offer</string>
+    <string name="user_name">User Name</string>
+    <string name="storage_not_loaded">Memory is not loaded Try again</string>
+    <string name="model_not_loaded">The model is not loaded Try again</string>
+    <string name="cities_not_loaded">Cities are not loaded try again</string>
+    <string name="favourite_not_found">No favorites found</string>
+    <string name="your_offer_send">You Offer Send Successfully</string>
+    <string name="massage_not_send">Message Not Send</string>
+    <string name="turn_on">Turn On</string>
+    <string name="no_offers">There are no offers for price Requests</string>
+    <string name="order_offer">Request a Offer</string>
+    <string name="enter_phone_again">Please return and enter the number again</string>
+    <string name="empty_message">Can not send empty message</string>
+</resources>

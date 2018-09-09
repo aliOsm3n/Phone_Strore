@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sign_in_root_padding">25dp</dimen>
+    <dimen name="sign_up_root_padding">25dp</dimen>
+    <dimen name="sign_up_sub_padding">20dp</dimen>
+    <dimen name="retrieve_pass_padding_root">15dp</dimen>
+    <dimen name="sign_in_button_height">36dp</dimen>
+    <dimen name="edit_text_height">42dp</dimen>
+    <dimen name="fragment_main_padding_root">10dp</dimen>
+    <dimen name="fragment_main_item_height">110dp</dimen>
+    <dimen name="recent_added_root_width">125dp</dimen>
+    <dimen name="rec_recent_height">120dp</dimen>
+    <dimen name="recent_added_root_height">120dp</dimen>
+    <dimen name="navigation_bottom_height">55dp</dimen>
+    <dimen name="navigation_bottom_icons">33dp</dimen>
+    <dimen name="navigation_bottom_add_icon">70dp</dimen>
+    <dimen name="view_pager_height">180dp</dimen>
+    <dimen name="filter_root_margin">15dp</dimen>
+    <dimen name="filter_sub_root_padding">16dp</dimen>
+    <dimen name="spinner_padding">8dp</dimen>
+    <dimen name="user_profile">15dp</dimen>
+    <dimen name="user_profile_margin">12dp</dimen>
+    <dimen name="chat_room_margin_start">85dp</dimen>
+    <dimen name="chat_room_image">40dp</dimen>
+    <dimen name="chat_room_margin_end">40dp</dimen>
+    <dimen name="user_profile_size">125dp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="view_width">2dp</dimen>
+    <dimen name="view_height">20dp</dimen>
+    <dimen name="over_view_width">12dp</dimen>
+    <dimen name="over_view_height">18dp</dimen>
+    <dimen name="category_item_height">115dp</dimen>
+    <dimen name="chat_icon_size">42dp</dimen>
+    <dimen name="nav">-40dp</dimen>
+
+</resources>

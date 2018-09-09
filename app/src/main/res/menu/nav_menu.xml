@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/my_profile">
+        <item android:title="@string/nav_profile"
+            android:id="@+id/profile"
+            android:icon="@drawable/user_profile"/>
+    </group>
+
+    <group android:id="@+id/my_ads">
+        <item android:title="@string/nav_my_ads"
+            android:id="@+id/ads"
+            android:icon="@drawable/my_ads"/>
+    </group>
+
+    <group android:id="@+id/my_orders">
+    <item android:title="@string/nav_my_order"
+        android:id="@+id/orders"
+        android:icon="@drawable/my_orders"/>
+    </group>
+
+    <group android:id="@+id/order_show_price">
+        <item android:title="@string/nav_all_order"
+            android:id="@+id/show_price"
+            android:icon="@drawable/orders_show_prices"/>
+    </group>
+
+    <group android:id="@+id/chat">
+        <item android:title="@string/nav_chat"
+            android:id="@+id/chats"
+            android:icon="@drawable/massanger"/>
+    </group>
+
+    <group android:id="@+id/fav">
+        <item android:title="@string/nav_favourites"
+            android:id="@+id/favourite"
+            android:icon="@drawable/fav"/>
+    </group>
+
+    <group android:id="@+id/con">
+    <item android:title="@string/nav_shroot"
+        android:id="@+id/conditions"
+        android:icon="@drawable/shroot"/>
+    </group>
+
+    <group android:id="@+id/about">
+        <item android:title="@string/nav_about_app"
+        android:id="@+id/about_app"
+        android:icon="@drawable/about_app"/>
+    </group>
+
+    <group android:id="@+id/rate">
+        <item android:title="@string/nav_rate"
+            android:id="@+id/rate_app"
+            android:icon="@drawable/rate_app"/>
+    </group>
+
+    <group android:id="@+id/settings">
+        <item android:title="@string/nav_settings"
+            android:id="@+id/setting_app"
+            android:icon="@drawable/setting_icon"/>
+    </group>
+
+    <group android:id="@+id/exit">
+    <item android:title="@string/nav_logout"
+        android:id="@+id/logout"
+        android:icon="@drawable/logout"/>
+    </group>
+
+
+</menu>

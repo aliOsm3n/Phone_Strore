@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string-array name="gender_names">
+        <item>@string/select_gender</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+    </string-array>
+
+
+    <string-array name="color_names">
+        <item>@string/mobile_select_color</item>
+        <item>@string/black</item>
+        <item>@string/white</item>
+        <item>@string/gray</item>
+        <item>@string/red</item>
+        <item>@string/green</item>
+        <item>@string/yellow</item>
+    </string-array>
+</resources>

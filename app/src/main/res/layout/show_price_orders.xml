@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        >
+
+
+        <View
+            android:layout_width="@dimen/view_width"
+            android:layout_height="@dimen/view_height"
+            android:id="@+id/view"
+            android:layout_alignParentStart="true"
+            android:background="#33bde7"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="iphone 6 pus, 64 G"
+            android:layout_toEndOf="@+id/view"
+            android:layout_marginStart="10dp"
+            android:textColor="#612185"
+            android:id="@+id/phone_name"
+            android:textSize="@dimen/text_size"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:layout_width="@dimen/over_view_width"
+            android:layout_height="@dimen/over_view_height"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/overflow"
+            android:src="@drawable/show_more_button_with_three_dots"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            >
+
+            <TextView
+                android:id="@+id/phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mobile_phone"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phone_city"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/phone"
+                android:text="الرياض"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/phone_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:text="جديد"
+                android:textColor="@color/text_color"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/btn"
+            android:layout_alignParentEnd="true"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="45000"
+                android:layout_gravity="center"
+                android:maxLength="5"
+                android:id="@+id/phone_price"
+                android:layout_margin="5dp"
+                android:textColor="#612185"
+                android:textSize="15sp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/real"
+                android:layout_gravity="center"
+                android:layout_marginEnd="5dp"
+                android:id="@+id/price_text"
+                android:layout_marginStart="3dp"
+                android:textColor="#612185"
+                />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#ccc"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+</LinearLayout>

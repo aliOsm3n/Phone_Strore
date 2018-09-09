@@ -1,0 +1,75 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+    <style name="AppTheme.NotFullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowTranslucentStatus">false</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="AppTheme.NoAction" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:listDivider">@color/divider</item>
+
+    </style>
+
+    <style name="EditText1Style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:background">@drawable/edittext_drawable1</item>
+        <item name="android:textColorHint">@color/edittext_hint_color</item>
+        <item name="android:textColor">@color/edittext_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditText1StyleRed">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_text_height</item>
+        <item name="android:background">@drawable/edittext_red</item>
+        <item name="android:textColorHint">@color/edittext_hint_color</item>
+        <item name="android:textColor">@color/edittext_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="EditText1StyleBlue">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/edit_text_height</item>
+        <item name="android:background">@drawable/take_price_border</item>
+        <item name="android:textColorHint">@color/edittext_hint_color</item>
+        <item name="android:textColor">@color/edittext_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="AppTheme.FullScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowFullscreen">true</item>
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupMenu" parent="Widget.AppCompat.PopupMenu">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:itemBackground">@color/nav_background_color</item>
+    </style>
+
+
+</resources>

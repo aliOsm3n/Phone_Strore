@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    tools:context=".ui.activity.HomeActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/fragment_main_padding_root"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/most_view"
+                android:id="@+id/choose_for_you"
+                android:textSize="15sp"
+                android:textColor="@color/nav_background_color"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                />
+
+            <com.phonedeals.ascom.phonestrore.util.CustomRecyclerView
+                android:id="@+id/most_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rec_recent_height"
+                android:scrollbars="none"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp" />
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/b"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/recent_add_layout"
+                >
+
+
+                <View
+                    android:layout_width="2dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/view"
+                    android:layout_alignParentStart="true"
+                    android:background="#33bde7"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/recent_add"
+                    android:id="@+id/new_produact"
+                    android:layout_toEndOf="@+id/view"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/nav_background_color"
+                    android:textSize="15sp"
+                    />
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:id="@+id/recent_add_next"
+                    android:src="@drawable/left_chevron"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    />
+
+            </RelativeLayout>
+
+
+
+            <com.phonedeals.ascom.phonestrore.util.CustomRecyclerView
+                android:id="@+id/recent_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/rec_recent_height"
+                android:scrollbars="none"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="20dp" />
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#aaa"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/category_recycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="10dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

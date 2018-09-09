@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color"
+    android:orientation="vertical"
+    tools:context=".ui.activity.CongratulationActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/app_bar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:minHeight="?attr/actionBarSize"
+            >
+
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="@dimen/fragment_main_padding_root"
+        android:layout_marginEnd="@dimen/fragment_main_padding_root"
+        android:background="@drawable/b"
+        android:padding="@dimen/filter_sub_root_padding"
+        android:gravity="center"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/smile"
+            android:scaleType="centerCrop"
+            android:layout_marginTop="20dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="#e1e0e0"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/congratulation"
+                android:textSize="20sp"
+                android:id="@+id/congratulation"
+                android:textColor="#14387c"
+                android:layout_margin="20dp"
+                />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="50dp"
+                android:background="#FFE1E0E0"/>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/success_send"
+            android:textSize="20sp"
+            android:id="@+id/success"
+            android:textAlignment="center"
+            android:textColor="#14387c"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#AAA"
+            android:layout_marginTop="20dp"
+            />
+        
+        <Button
+            android:layout_width="220dp"
+            android:layout_height="36dp"
+            android:background="@drawable/bt"
+            android:text="@string/go_to_store"
+            android:layout_margin="20dp"
+            android:textColor="#FFF"
+            android:id="@+id/go_to_store"
+            android:onClick="goToStore"
+            />
+    </LinearLayout>
+</LinearLayout>

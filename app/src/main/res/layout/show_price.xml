@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout"
+    android:layout_marginTop="10dp"
+    android:background="#fff">
+
+
+    <View
+        android:layout_width="@dimen/view_width"
+        android:layout_height="@dimen/view_height"
+        android:layout_alignParentStart="true"
+        android:id="@+id/view"
+        android:background="@drawable/rounded_border"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Iphone 6 pus , 64 G"
+        android:textSize="@dimen/text_size"
+        android:maxLength="35"
+        android:id="@+id/phone_name"
+        android:textStyle="bold"
+        android:textColor="#612185"
+        android:layout_marginStart="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/phone_name"
+        android:layout_marginStart="10dp"
+        android:gravity="center"
+        android:background="@drawable/circle_number"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="34"
+            android:paddingStart="4dp"
+            android:paddingEnd="4dp"
+            android:id="@+id/order_number"
+            android:textColor="#fff"
+            android:textSize="@dimen/text_size"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="@dimen/over_view_width"
+        android:layout_height="@dimen/over_view_height"
+        android:src="@drawable/show_more_button_with_three_dots"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/overflow"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mobile_phone"
+        android:id="@+id/phone"
+        android:textSize="15sp"
+        android:textColor="@color/text_color"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/view"
+        android:layout_marginStart="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الرياض"
+        android:id="@+id/phone_city"
+        android:textColor="@color/text_color"
+        android:layout_below="@+id/phone"
+        android:layout_marginStart="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جديد"
+        android:id="@+id/phone_status"
+        android:textColor="@color/text_color"
+        android:layout_below="@+id/phone_city"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="12dp"
+        />
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/phone_status"
+        android:layout_marginTop="10dp"
+        android:background="#ccc"/>
+</RelativeLayout>

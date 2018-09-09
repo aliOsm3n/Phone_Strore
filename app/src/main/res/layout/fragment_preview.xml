@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/view_pager_height">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/view_pager_height"
+        android:id="@+id/images"
+        android:scaleType="centerCrop"
+        />
+
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF</color>
+    <color name="colorPrimaryDark">#c9c7c7</color>
+    <color name="colorAccent">#1797D3</color>
+    <color name="nav_background_color">#323C62</color>
+    <color name="sign_in_color">#1797D3</color>
+    <color name="sign_up_color">#D52E71</color>
+    <color name="divider">#197e7d7d</color>
+    <color name="background_color">#E8EAF6</color>
+    <color name="success_toast_color">#8bc34a</color>
+    <color name="fail_toast_color">#ff5a5f</color>
+    <color name="info_toast_color">#3793cc</color>
+    <color name="edittext_hint_color">#baa8c8</color>
+    <color name="edittext_text_color">#612185</color>
+    <color name="textview_text_color">#612185</color>
+    <color name="text_color">#B090C2</color>
+</resources>

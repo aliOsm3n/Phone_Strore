@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.phonedeals.ascom.phonestrore.ui.activity.IntroduceOfferActivity"
+        android:background="@color/background_color"
+        android:orientation="vertical"
+        >
+
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/app_bar"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:minHeight="?attr/actionBarSize"
+                >
+
+
+            </android.support.v7.widget.Toolbar>
+
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/b"
+            android:layout_margin="@dimen/fragment_main_padding_root"
+            android:weightSum="10"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                >
+
+                <com.google.android.gms.maps.MapView
+                    android:id="@+id/mapView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/confirm_address_map_custom_marker"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/marker"/>
+            </RelativeLayout>
+
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="20dp"
+                android:text="@string/select"
+                android:textColor="#FFF"
+                android:onClick="selectLocation"
+                android:layout_marginBottom="10dp"
+                android:id="@+id/introduce_order"
+                android:background="@drawable/order_price_button_bg"
+                />
+        </LinearLayout>
+    </LinearLayout>
